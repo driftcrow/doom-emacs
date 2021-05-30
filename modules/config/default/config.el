@@ -458,3 +458,6 @@ Continues comments if executed from a commented line. Consults
 (if (featurep 'evil)
     (load! "+evil")
   (load! "+emacs"))
+
+(when (featurep 'meow)
+  (load! "+meow"))
